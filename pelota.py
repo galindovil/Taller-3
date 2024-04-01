@@ -2,15 +2,15 @@ class Pelota:
     
     def __init__(self):
         
-        self.x
-        self.y
-        self.radio
-        self.color
-        self.tipo
-        self.tipo_relleno
+        self.x = 0
+        self.y = 0
+        self.radio =  1
+        self.color = "red"
+        self.tipo = "circulo"
+        self.tipo_relleno = "relleno"
         
     def mover(self):
-        pass
+        print ("Me estoy moviendo!!!")
     def rebotar(self):
         pass
     def dibujar(self):
